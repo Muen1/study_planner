@@ -472,9 +472,26 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
               ),
             ),
+            Center(
+  child: ElevatedButton(
+    onPressed: () async {
+      await _taskManager.saveTasks([]);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('All data cleared'),
+          backgroundColor: Color(0xFFB5EAD7),
+        ),
+      );
+    },
+    child: Text('Clear All Data', style: TextStyle(color: Color(0xFF6A5ACD))),
+    style: ElevatedButton.styleFrom(
+      backgroundColor: Color(0xFFFFD1DC), // Pastel pink
+    ),
+  ),
+),
           ],
         ),
-      ),
+      ),     
     );
   }
 }
