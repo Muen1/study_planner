@@ -2,7 +2,7 @@
 
 A study planner application built with Flutter, for managing your study schedule.
 
-# Demo video (https://youtu.be/ZNvi62LYans)
+## Demo video (https://youtu.be/ZNvi62LYans)
 
 ## Features
 
