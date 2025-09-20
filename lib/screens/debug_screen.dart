@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'debug_screen.dart'; // Import the debug screen
 
 class SettingsScreen extends StatelessWidget {
-  const SettingsScreen({Key? key}) : super(key: key);
+  const SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
