@@ -1,4 +1,4 @@
-# Study Planner App 📚✨
+# Study Planner App 
 
 A study planner application built with Flutter, for managing your study schedule.
 
@@ -6,12 +6,12 @@ A study planner application built with Flutter, for managing your study schedule
 
 ## Features
 
-- 📅 **Task Management**: Create, view, and manage study tasks
-- 🗓️ **Calendar View**: Monthly calendar with highlighted task dates
-- 🔔 **Reminder System**: Set reminders for important tasks
-- 💾 **Local Storage**: Tasks persist between app sessions
-- 🎨 **Beautiful UI**: Visually appealing aesthetic
-- ⚙️ **Settings**: Customize app behavior and notifications
+- **Task Management**: Create, view, and manage study tasks
+-  **Calendar View**: Monthly calendar with highlighted task dates
+-  **Reminder System**: Set reminders for important tasks
+-  **Local Storage**: Tasks persist between app sessions
+-  **Beautiful UI**: Visually appealing aesthetic
+-  **Settings**: Customize app behavior and notifications
 
 
 ### Prerequisites
